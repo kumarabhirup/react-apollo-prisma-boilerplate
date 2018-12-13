@@ -2,14 +2,12 @@
   "name": "node-prisma-backend",
   "version": "0.0.1",
   "description": "The Prisma backend for your app!",
-  
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
     "test": "jest",
     "deploy": "prisma deploy"
   },
-
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "bcryptjs": "2.4.3",
@@ -26,16 +24,13 @@
     "prisma-binding": "2.1.6",
     "stripe": "^6.12.1"
   },
-
   "license": "MIT",
   "repository": {
     "url": "https://www.github.com/KumarAbhirup/react-apollo-prisma-boilerplate"
   },
-
   "babel": {
     "presets": [
       "env"
     ]
   }
-
 }
