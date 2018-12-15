@@ -34,7 +34,7 @@
 
 <div align="center">
 
-<img align="center" width="100%" src="https://i.ibb.co/tsp6QzM/React-Boilerplate.jpg" alt="Start building from scratch...">
+<img align="center" width="100%" src="https://i.ibb.co/J7jTmqR/React-Boilerplate.jpg" alt="Start building from scratch...">
 
 </div>
 
