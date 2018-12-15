@@ -10,14 +10,23 @@ Router.onRouteChangeError = () => NProgress.done()
 
 // CSS
 const StyledHeader = styled.header`
-  width: 100px;
-  background: #EAEAEA;
+  padding: 20px;
+  background: #368EBB;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: normal;
+`
+const BigText = styled.div`
+    font-size: 100px;
 `
 
 // Component
 const Header = () => (
     <StyledHeader>
-        This is the HEADER!
+        <h1>⚛️ <u>React.js</u> + <u>Next.js</u> + <u>Apollo Client</u> + <u>GraphQL Yoga</u> 🧘🏻‍♂️</h1>
+        <BigText>
+            🎉
+        </BigText>
     </StyledHeader>
 )
 

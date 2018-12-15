@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled, { ThemeProvider, injectGlobal } from 'styled-components'
 
-import { Header, Meta } from '../components'
+import { Header, Meta, Credits } from '../components'
 
 // CSS
 const theme = {
@@ -66,6 +66,8 @@ class Page extends Component {
           <Inner>
             { this.props.children }
           </Inner>
+
+          <Credits />
 
         </StyledPage>
 
